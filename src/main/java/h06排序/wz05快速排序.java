@@ -1,4 +1,4 @@
-package _6排序;
+package h06排序;
 
 import org.junit.Test;
 

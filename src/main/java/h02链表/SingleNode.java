@@ -1,4 +1,4 @@
-package _02链表;
+package h02链表;
 
 /**
  * 单向链表

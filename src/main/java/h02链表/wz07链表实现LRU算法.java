@@ -1,12 +1,6 @@
-package _02链表;
+package h02链表;
 
 import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 维护一个有序单链表，越靠近链表尾部的结点是越早访问的，

@@ -1,11 +1,11 @@
-package _6排序;
+package h06排序;
 
 import org.junit.Test;
 
 /**
  * Create by @author 杨威 on 2021/7/24 0024 - 21:42
  */
-public class wz08基数排序 {
+public class wz07计数排序 {
     @Test
     public void test() {
 
