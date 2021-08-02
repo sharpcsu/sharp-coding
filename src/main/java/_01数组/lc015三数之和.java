@@ -1,5 +1,7 @@
 package _01数组;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -32,13 +34,12 @@ import java.util.List;
  * Related Topics 数组 双指针 排序
  * 👍 3582 👎 0
  */
-// TodoSharp: 2021/8/1 0001
 public class lc015三数之和 {
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
 
     }
-
 
     public List<List<Integer>> threeSum(int[] nums) {
         int length = nums.length;

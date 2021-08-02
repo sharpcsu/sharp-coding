@@ -2,7 +2,6 @@ package 遇到的面试题;
 
 import org.junit.Test;
 
-import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -13,7 +12,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * 使用Java基础类库（仅JDK中包含的类库）编写一个标准的LRU缓存实现
  * Create by @author 杨威 on 2021/8/1 0001 - 22:14
  */
-// TodoSharp: 2021/8/1 0001  
 public class 阿里巴巴_02标准的LRU缓存实现 {
 
     @Test

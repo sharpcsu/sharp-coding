@@ -1,8 +1,7 @@
 package _01数组;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import org.junit.Test;
+
 import java.util.HashMap;
 
 /**
@@ -34,12 +33,15 @@ import java.util.HashMap;
  *  进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
  *  Related Topics 数组 哈希表
  *  👍 11707 👎 0
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/two-sum
  *
  * Create by @author 杨威 on 2021/8/1 0001 - 20:01
  */
 public class lc001两数之和 {
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         int[] ints1 = twoSum(new int[]{2, 7, 11, 15}, 9);
         for (int i : ints1) {
             System.out.print(i + " ");
@@ -65,7 +67,7 @@ public class lc001两数之和 {
      * 思路
      * 使用哈希表，将寻找target - x 的时间复杂度降低到 O(1)
      */
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
             if (hashMap.containsKey(target - nums[i])) {

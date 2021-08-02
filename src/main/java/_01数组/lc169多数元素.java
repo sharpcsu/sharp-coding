@@ -1,5 +1,7 @@
 package _01数组;
 
+import org.junit.Test;
+
 /**
  * 给定一个大小为 n 的数组，找到其中的多数元素。多数元素是指在数组中出现次数 大于 [n/2] 的元素。
  *  你可以假设数组是非空的，并且给定的数组总是存在多数元素。
@@ -20,7 +22,6 @@ package _01数组;
  *
  * Create by @author 杨威 on 2021/8/1 0001 - 18:16
  */
-// TodoSharp: 2021/8/1 0001  
 public class lc169多数元素 {
 
     /**
@@ -32,7 +33,8 @@ public class lc169多数元素 {
      * 5. Boyer-Moore投票算法 时间复杂度O(n)，空间复杂度O(1)
      * @param args
      */
-    public static void main(String[] args) {
+    @Test
+    public void test() {
 
     }
 

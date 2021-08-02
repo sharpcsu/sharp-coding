@@ -8,7 +8,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * 有A、B、C、D四个线程，A线程输出A，B线程输出B，C线程输出C，D线程输出D，要求：同时启动四个线程，按顺序输出ABCD
  * Create by @author 杨威 on 2021/8/1 0001 - 22:14
  */
-// TodoSharp: 2021/8/1 0001  
 public class 阿里巴巴_01顺序输出ABCD {
 
     public static void main(String[] args) throws InterruptedException {
