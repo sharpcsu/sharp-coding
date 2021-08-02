@@ -3,8 +3,6 @@ package h02链表;
 import java.util.Scanner;
 import java.util.Stack;
 
-import 程序员代码面试指南.第2章链表问题.NodeUtils;
-
 /**
  * 题目:
  
@@ -30,7 +28,7 @@ public class nk09链表回文结构 {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
     
-        Node head = NodeUtils.str2link(str);
+        Node head = SingleNodeUtils.str2link(str);
 //        boolean res1 = isPalindrome1(head);
         boolean res2 = isPalindrome2(head);
 //        boolean res3 = isPalindrome3(head);

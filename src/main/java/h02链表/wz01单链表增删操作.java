@@ -12,25 +12,3 @@ public class wz01单链表增删操作 {
     }
 
 }
-
-class Node {
-    Integer value;
-    Node next;
-
-    public Node(Integer value) {
-        this.value = value;
-    }
-
-    public Node(Integer value, Node next) {
-        this.value = value;
-        this.next = next;
-    }
-
-    public void add(Node head, Integer value) {
-
-    }
-
-    public void delete(Node head, Integer value) {
-
-    }
-}

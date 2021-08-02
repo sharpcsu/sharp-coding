@@ -2,8 +2,6 @@ package h02链表;
 
 import java.util.Scanner;
 
-import 程序员代码面试指南.第2章链表问题.NodeUtils;
-
 /**
  * 题目:
  * <p>
@@ -23,10 +21,10 @@ public class nk08链表中指定值清楚 {
         String str = scanner.nextLine();
         int val = scanner.nextInt();
         
-        Node head = NodeUtils.str2link(str);
+        Node head = SingleNodeUtils.str2link(str);
         head = clear(head, val);
         
-        NodeUtils.printLink(head);
+        SingleNodeUtils.printLink(head);
     }
     
     public static Node clear(Node head, int val) {

@@ -1,12 +1,8 @@
-package 程序员代码面试指南.main; /**
- * Created by 杨威 on 9/29 0029 - 10:34
- */
+package 程序员代码面试指南.main;
 
 /**
  * 设计 4 个 ( 可以是 n 个 ) 线程，其中两个线程每次对 j 增加 1 ，另外两个线程对 j 每次减少 1
  */
-
-
 public class Main21 {
     // 采用 Runnable 接口方式创建的多条线程可以共享实例属性
     private int i;

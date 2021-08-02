@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import 程序员代码面试指南.第2章链表问题.NodeUtils;
-
 /**
  第2节 环形链表插值练习题
  有一个整数val，如何在节点值有序的环形链表中插入一个节点值为val的节点，并且保证这个环形单链表依然有序。
@@ -42,7 +40,7 @@ public class nk02环形链表插值 {
         Node head = insert(A, nxt, val);
 
         //打印链表
-        NodeUtils.printLink(head);
+        SingleNodeUtils.printLink(head);
     }
 
     public static Node insert(int[] A, int[] nxt, int val) {

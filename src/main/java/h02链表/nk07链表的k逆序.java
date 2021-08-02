@@ -2,8 +2,6 @@ package h02链表;
 
 import java.util.Scanner;
 
-import 程序员代码面试指南.第2章链表问题.NodeUtils;
-
 /**
  * 题目:
  有一个单链表，请设计一个算法，使得每K个节点之间逆序，如果最后不够K个节点一组，则不调整最后几个节点。
@@ -25,13 +23,13 @@ public class nk07链表的k逆序 {
         String str = scanner.nextLine();
         int k = scanner.nextInt();
     
-        Node head = NodeUtils.str2link(str);
+        Node head = SingleNodeUtils.str2link(str);
         System.out.println("原始链表");
-        NodeUtils.printLink(head);
+        SingleNodeUtils.printLink(head);
     
         head = inverse(head, k);
         System.out.println("结果链表");
-        NodeUtils.printLink(head);
+        SingleNodeUtils.printLink(head);
     }
     
     public static Node inverse(Node head, int k) {

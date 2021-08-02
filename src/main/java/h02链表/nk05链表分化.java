@@ -2,8 +2,6 @@ package h02链表;
 
 import java.util.Scanner;
 
-import 程序员代码面试指南.第2章链表问题.NodeUtils;
-
 /**
  * 题目:
  * 对于一个链表，我们需要用一个特定阈值完成对它的分化，使得小于等于这个值的结点移到前面，大于该值的结点在后面，同时保证两类结点内部的位置关系不变。
@@ -27,16 +25,16 @@ public class nk05链表分化 {
         String str = scanner.nextLine();
         int val = scanner.nextInt();
         
-        Node head = NodeUtils.str2link(str);
+        Node head = SingleNodeUtils.str2link(str);
         
         //打印链表
-        NodeUtils.printLink(head);
+        SingleNodeUtils.printLink(head);
         
         Node res = listDivide(head, val);
         
         //打印链表
         
-        NodeUtils.printLink(res);
+        SingleNodeUtils.printLink(res);
     }
     
     public static Node listDivide(Node head, int val) {
