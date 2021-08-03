@@ -29,7 +29,41 @@ import org.junit.Test;
  */
 public class lc088合并两个有序数组 {
 
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
+    @Test
+    public void test() {
+        int[] nums11 = {1, 2, 3, 0, 0, 0};
+        int[] nums12 = {2, 5, 6};
+        merge(nums11, 3, nums12, 3);
+        ArrayUtil.print(nums11);
 
+        int[] nums21 = {1};
+        int[] nums22 = {};
+        merge(nums21, 1, nums22, 0);
+        ArrayUtil.print(nums21);
+    }
+
+    /**
+     * 逆向双指针
+     * 时间复杂度：O(m + n)
+     * 空间复杂度：O(1)
+     *
+     * 思路：指针从后向前遍历，每次取两者之中较大者放进nums1的最后面
+     */
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int p1 = m - 1;
+        int p2 = n - 1;
+        int tail = m + n - 1;
+
+        while (p1 >= 0 || p2 >= 0) {
+            if (p1 == -1) {
+                nums1[tail--] = nums2[p2--];
+            } else if (p2 == -1) {
+                nums1[tail--] = nums1[p1--];
+            } else if (nums1[p1] >= nums2[p2]) {
+                nums1[tail--] = nums1[p1--];
+            } else {
+                nums1[tail--] = nums2[p2--];
+            }
+        }
     }
 }
