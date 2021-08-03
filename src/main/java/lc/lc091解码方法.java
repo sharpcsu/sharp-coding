@@ -7,9 +7,6 @@ import org.junit.Test;
  */
 public class lc091解码方法 {
 
-    @Test
-    public void test() {
 
-    }
 
 }

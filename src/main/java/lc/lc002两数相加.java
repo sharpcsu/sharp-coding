@@ -15,8 +15,5 @@ import org.junit.Test;
  * Create by @author sharpyangwei on 2021/8/2 - 下午2:01
  */
 public class lc002两数相加 {
-    @Test
-    public void test() {
 
-    }
 }

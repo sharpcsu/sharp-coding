@@ -7,9 +7,6 @@ import org.junit.Test;
  */
 public class lc161相隔为1的编辑距离 {
 
-    @Test
-    public void test() {
 
-    }
 
 }

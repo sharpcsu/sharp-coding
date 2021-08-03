@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 2017/7/6 - 16:35
  */
 public class jz12打印1到最大的n位数 {
-    @Test
-    public void test() {
 
-    }
 
 }

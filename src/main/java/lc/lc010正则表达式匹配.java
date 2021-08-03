@@ -55,10 +55,7 @@ import org.junit.Test;
  */
 public class lc010正则表达式匹配 {
 
-    @Test
-    public void test() {
 
-    }
 
     public boolean isMatch(String s, String p) {
         return false;

@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 7/2 0002 - 22:52
  */
 public class cx06一致性哈希算法的基本原理 {
-    @Test
-    public void test() {
 
-    }
 
 }

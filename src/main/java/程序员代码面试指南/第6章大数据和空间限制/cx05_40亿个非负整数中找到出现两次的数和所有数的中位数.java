@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 7/2 0002 - 22:52
  */
 public class cx05_40亿个非负整数中找到出现两次的数和所有数的中位数 {
-    @Test
-    public void test() {
 
-    }
 
 }

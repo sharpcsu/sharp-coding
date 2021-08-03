@@ -40,10 +40,7 @@ import org.junit.Test;
  */
 public class lc009回文数 {
 
-    @Test
-    public void test() {
 
-    }
 
     public boolean isPalindrome(int x) {
         return false;

@@ -36,10 +36,7 @@ import java.util.List;
  */
 public class lc015三数之和 {
 
-    @Test
-    public void test() {
 
-    }
 
     public List<List<Integer>> threeSum(int[] nums) {
         int length = nums.length;

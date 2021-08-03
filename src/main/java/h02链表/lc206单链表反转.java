@@ -12,10 +12,7 @@ import org.junit.Test;
  * Create by @author 杨威 on 2021/8/1 0001 - 21:52
  */
 public class lc206单链表反转 {
-    @Test
-    public void test() {
 
-    }
 
     /**
      * 迭代实现

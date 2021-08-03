@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 2017/7/6 - 16:32
  */
 public class jz02实现Singleton模式 {
-    @Test
-    public void test() {
 
-    }
 
 }

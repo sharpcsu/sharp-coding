@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 7/2 0002 - 23:15
  */
 public class cx12调整0_x区间上的数出现的频率 {
-    @Test
-    public void test() {
 
-    }
 
 }

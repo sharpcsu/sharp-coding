@@ -9,10 +9,7 @@ import org.junit.Test;
  * Create by @author 杨威 on 2021/8/1 0001 - 21:58
  */
 public class wz07链表实现LRU算法 {
-    @Test
-    public void test() {
 
-    }
 
 }
 

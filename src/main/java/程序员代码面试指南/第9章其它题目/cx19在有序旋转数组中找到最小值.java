@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 7/2 0002 - 23:18
  */
 public class cx19在有序旋转数组中找到最小值 {
-    @Test
-    public void test() {
 
-    }
 
 }

@@ -7,10 +7,7 @@ import org.junit.Test;
  */
 public class wz03两个有序数据合并为一个有序数组 {
 
-    @Test
-    public void test() {
 
-    }
 
 }
 

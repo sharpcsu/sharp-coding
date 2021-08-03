@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 7/2 0002 - 22:29
  */
 public class cx04换钱的方法数 {
-    @Test
-    public void test() {
 
-    }
 
 }

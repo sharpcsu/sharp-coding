@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 7/2 0002 - 23:17
  */
 public class cx17从N个数中等概率打印M个数 {
-    @Test
-    public void test() {
 
-    }
 
 }

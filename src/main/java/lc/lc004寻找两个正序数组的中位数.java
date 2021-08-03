@@ -45,8 +45,5 @@ import org.junit.Test;
  * Create by @author sharpyangwei on 2021/8/2 - 下午3:18
  */
 public class lc004寻找两个正序数组的中位数 {
-    @Test
-    public void test() {
 
-    }
 }

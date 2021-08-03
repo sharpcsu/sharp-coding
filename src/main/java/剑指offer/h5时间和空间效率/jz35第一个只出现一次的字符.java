@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 2017/7/6 - 16:44
  */
 public class jz35第一个只出现一次的字符 {
-    @Test
-    public void test() {
 
-    }
 
 }

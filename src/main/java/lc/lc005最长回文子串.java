@@ -41,10 +41,7 @@ import org.junit.Test;
  */
 public class lc005最长回文子串 {
 
-    @Test
-    public void test() {
 
-    }
 
     public String longestPalindrome(String s) {
         return "";

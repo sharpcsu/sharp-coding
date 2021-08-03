@@ -45,10 +45,7 @@ import org.junit.Test;
  */
 public class lc006Z字形变换 {
 
-    @Test
-    public void test() {
 
-    }
 
     public String convert(String s, int numRows) {
         return "";

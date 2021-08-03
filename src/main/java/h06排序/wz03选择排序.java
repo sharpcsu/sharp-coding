@@ -6,9 +6,5 @@ import org.junit.Test;
  * Create by @author 杨威 on 2021/7/24 0024 - 21:40
  */
 public class wz03选择排序 {
-    @Test
-    public void test() {
-
-    }
 
 }

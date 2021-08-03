@@ -33,10 +33,7 @@ public class lc169多数元素 {
      * 5. Boyer-Moore投票算法 时间复杂度O(n)，空间复杂度O(1)
      * @param args
      */
-    @Test
-    public void test() {
 
-    }
 
     /**
      * Boyer-Moore投票算法

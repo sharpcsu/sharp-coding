@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 2017/7/6 - 16:44
  */
 public class jz36数组中的逆序对 {
-    @Test
-    public void test() {
 
-    }
 
 }

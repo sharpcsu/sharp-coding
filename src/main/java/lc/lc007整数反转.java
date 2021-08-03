@@ -35,10 +35,7 @@ import org.junit.Test;
  */
 public class lc007整数反转 {
 
-    @Test
-    public void test() {
 
-    }
 
     public int reverse(int x) {
         return 0;

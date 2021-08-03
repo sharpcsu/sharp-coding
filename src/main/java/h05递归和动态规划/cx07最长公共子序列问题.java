@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 7/2 0002 - 22:30
  */
 public class cx07最长公共子序列问题 {
-    @Test
-    public void test() {
 
-    }
 
 }

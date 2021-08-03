@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 2017/7/6 - 16:36
  */
 public class jz13在O1时间删除链表结点 {
-    @Test
-    public void test() {
 
-    }
 
 }

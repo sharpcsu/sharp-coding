@@ -7,9 +7,6 @@ import org.junit.Test;
  */
 public class lc125验证回文串 {
 
-    @Test
-    public void test() {
 
-    }
 
 }

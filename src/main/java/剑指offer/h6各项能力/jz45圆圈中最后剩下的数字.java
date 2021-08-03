@@ -6,9 +6,6 @@ import org.junit.Test;
  * Created by sharp on 2017/7/6 - 16:48
  */
 public class jz45圆圈中最后剩下的数字 {
-    @Test
-    public void test() {
 
-    }
 
 }

@@ -102,10 +102,7 @@ import org.junit.Test;
  */
 public class lc008字符串转换整数 {
 
-    @Test
-    public void test() {
 
-    }
 
     public int myAtoi(String s) {
         return 0;
