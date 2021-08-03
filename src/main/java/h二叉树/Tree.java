@@ -6,11 +6,11 @@ package h二叉树;
  * Created by sharp on 2017/7/7 - 13:42
  */
 public class Tree {
-    int val;
+    int value;
     Tree left; //做指针
     Tree right; //右指针
     
-    public Tree(int val) {
-        this.val = val;
+    public Tree(int value) {
+        this.value = value;
     }
 }
