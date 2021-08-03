@@ -32,9 +32,12 @@ import java.util.HashMap;
  *
  *  进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
  *  Related Topics 数组 哈希表
- *  👍 11707 👎 0
+ *  👍 11707 👎 0 难度：简单
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/two-sum
+ *
+ * 思路：
+ * 使用哈希表，将寻找target - x 的时间复杂度降低到 O(1)
  *
  * Create by @author 杨威 on 2021/8/1 0001 - 20:01
  */
@@ -63,9 +66,6 @@ public class lc001两数之和 {
 
     /**
      * 哈希表法
-     *
-     * 思路
-     * 使用哈希表，将寻找target - x 的时间复杂度降低到 O(1)
      */
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();

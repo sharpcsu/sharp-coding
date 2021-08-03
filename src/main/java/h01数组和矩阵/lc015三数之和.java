@@ -32,7 +32,8 @@ import java.util.List;
  * -105 <= nums[i] <= 105
  *
  * Related Topics 数组 双指针 排序
- * 👍 3582 👎 0
+ * 👍 3582 👎 0 难度：中
+ * https://leetcode-cn.com/problems/3sum/
  */
 public class lc015三数之和 {
 

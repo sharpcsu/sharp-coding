@@ -1,5 +1,6 @@
 package h01数组和矩阵;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -23,10 +24,12 @@ import org.junit.Test;
  *  -231 <= nums[i] <= 231 - 1
  *
  *  Related Topics 数组 哈希表
- *  👍 1152 👎 0
+ *  👍 1152 👎 0 难度：高
+ *  https://leetcode-cn.com/problems/first-missing-positive/
  *
  * Create by @author 杨威 on 2021/8/1 0001 - 18:19
  */
+// TodoSharp: 2021/8/3 不太懂
 public class lc041缺失的第一个正数 {
 
     @Test
@@ -36,11 +39,11 @@ public class lc041缺失的第一个正数 {
         int[] ints3 = {7,8,9,11,12};
 
         int result1 = firstMissingPositive1(ints1);
-        System.out.println(result1);
+        Assert.assertEquals(result1, 3);
         int result2 = firstMissingPositive1(ints2);
-        System.out.println(result2);
+        Assert.assertEquals(result2, 2);
         int result3 = firstMissingPositive1(ints3);
-        System.out.println(result3);
+        Assert.assertEquals(result3, 1);
     }
 
 

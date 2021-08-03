@@ -18,7 +18,8 @@ import org.junit.Test;
  * 尝试设计时间复杂度为 O(n)、空间复杂度为 O(1) 的算法解决此问题。
  *
  *  Related Topics 数组 哈希表 分治 计数 排序
- *  👍 1078 👎 0
+ *  👍 1078 👎 0 难度：简单
+ *  https://leetcode-cn.com/problems/majority-element/
  *
  * Create by @author 杨威 on 2021/8/1 0001 - 18:16
  */
