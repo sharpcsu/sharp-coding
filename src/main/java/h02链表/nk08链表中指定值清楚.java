@@ -21,23 +21,23 @@ public class nk08链表中指定值清楚 {
         String str = scanner.nextLine();
         int val = scanner.nextInt();
         
-        Node head = SingleNodeUtils.str2link(str);
+        SingleNode head = SingleNodeUtils.str2link(str);
         head = clear(head, val);
         
         SingleNodeUtils.printLink(head);
     }
     
-    public static Node clear(Node head, int val) {
+    public static SingleNode clear(SingleNode head, int val) {
         //合法性判断
         if (head == null) {
             return null;
         }
         
-        Node pre = null;
-        Node index = head;
+        SingleNode pre = null;
+        SingleNode index = head;
     
         while (index != null) {
-            if (index.val == val) { //删除
+            if (index.value == val) { //删除
                 if (pre == null) { //pre为null是head后移
                     head = head.next;
                 } else {

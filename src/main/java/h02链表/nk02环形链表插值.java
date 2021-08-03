@@ -37,19 +37,19 @@ public class nk02环形链表插值 {
             nxt[i] = Integer.valueOf(nxtss[i]);
         }
 
-        Node head = insert(A, nxt, val);
+        SingleNode head = insert(A, nxt, val);
 
         //打印链表
         SingleNodeUtils.printLink(head);
     }
 
-    public static Node insert(int[] A, int[] nxt, int val) {
+    public static SingleNode insert(int[] A, int[] nxt, int val) {
 
         //构建循环链表
         //创建节点, 保存在ArrayList中
-        List<Node> list = new ArrayList<>();
+        List<SingleNode> list = new ArrayList<>();
         for(int i = 0; i < A.length; i++) {
-            list.add(new Node(A[i]));
+            list.add(new SingleNode(A[i]));
         }
 
         //建立循环链表间的依赖关系

@@ -23,7 +23,7 @@ public class nk07链表的k逆序 {
         String str = scanner.nextLine();
         int k = scanner.nextInt();
     
-        Node head = SingleNodeUtils.str2link(str);
+        SingleNode head = SingleNodeUtils.str2link(str);
         System.out.println("原始链表");
         SingleNodeUtils.printLink(head);
     
@@ -32,7 +32,7 @@ public class nk07链表的k逆序 {
         SingleNodeUtils.printLink(head);
     }
     
-    public static Node inverse(Node head, int k) {
+    public static SingleNode inverse(SingleNode head, int k) {
         
         return null;
     }

@@ -45,39 +45,3 @@ public class jz07用两个栈实现队列 {
         }
     }
 }
-
-class MyQueue {
-    private Stack<Integer> in;
-    private Stack<Integer> out;
-
-    public MyQueue() {
-        in = new Stack<>();
-        out = new Stack<>();
-    }
-
-    /**
-     * 从队尾插入节点
-     */
-    public void appendTail(int value) {
-        while (!out.isEmpty()) {
-            in.push(out.pop());
-        }
-
-        in.push(value);
-    }
-
-    /**
-     * 从队头删除节点
-     */
-    public int deleteHead() {
-        while (!in.isEmpty()) {
-            out.push(in.pop());
-        }
-
-        return out.pop();
-    }
-
-    public boolean isEmpty() {
-        return in.isEmpty() && out.isEmpty();
-    }
-}

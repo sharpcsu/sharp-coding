@@ -3,7 +3,6 @@ package h03栈和队列;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Stack;
 
 /**
  * 用两个栈实现队列, 支持队列的基本操作(add, poll, peek)
@@ -35,43 +34,3 @@ public class cx02由两个栈组成的队列 {
     }
 }
 
-class MyQueue {
-    private Stack<Integer> in;
-    private Stack<Integer> out;
-    
-    public MyQueue() {
-        in = new Stack<>();
-        out = new Stack<>();
-    }
-    
-    //入队列
-    public void push(int n) {
-        while (!out.isEmpty()) {
-            in.push(out.pop());
-        }
-        
-        in.push(n);
-    }
-    
-    //出队列
-    public int pop() {
-        while (!in.isEmpty()) {
-            out.push(in.pop());
-        }
-        
-        return out.pop();
-    }
-    
-    //返回队列头的数据
-    public int peek() {
-        while (!in.isEmpty()) {
-            out.push(in.pop());
-        }
-        
-        return out.peek();
-    }
-    
-    public boolean isEmpty() {
-        return in.isEmpty() && out.isEmpty();
-    }
-}

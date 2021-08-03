@@ -28,7 +28,7 @@ public class nk09链表回文结构 {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
     
-        Node head = SingleNodeUtils.str2link(str);
+        SingleNode head = SingleNodeUtils.str2link(str);
 //        boolean res1 = isPalindrome1(head);
         boolean res2 = isPalindrome2(head);
 //        boolean res3 = isPalindrome3(head);
@@ -43,23 +43,23 @@ public class nk09链表回文结构 {
      * @param head 链表头结点
      * @return 是否是回文
      */
-    private static boolean isPalindrome1(Node head) {
+    private static boolean isPalindrome1(SingleNode head) {
         if (head == null) {
             return false;
         }
         
         Stack<Integer> stack = new Stack<>();
-        Node index = head;
+        SingleNode index = head;
     
         while (index != null) {
-            stack.push(index.val);
+            stack.push(index.value);
             index = index.next;
         }
         
         //判断是否是回文
         index = head;
         while (index != null) {
-            if (index.val != stack.pop()) {
+            if (index.value != stack.pop()) {
                 return false;
             }
             
@@ -74,13 +74,13 @@ public class nk09链表回文结构 {
      * @param head 链表头结点
      * @return 是否是回文
      */
-    private static boolean isPalindrome2(Node head) {
+    private static boolean isPalindrome2(SingleNode head) {
         //合法性检查
         if (head == null) {
             return false;
         }
         
-        Node index = head;
+        SingleNode index = head;
         int num = 0;
         Stack<Integer> stack = new Stack<>();
     
@@ -97,14 +97,14 @@ public class nk09链表回文结构 {
         }
         
         for(; i < num ; i++) {
-            stack.push(index.val);
+            stack.push(index.value);
             index = index.next;
         }
         
         //链表前半部分比较
         index = head;
         for(i = 0; i < num / 2; i++) {
-            if (index.val != stack.pop()) {
+            if (index.value != stack.pop()) {
                 return false;
             }
             
@@ -121,13 +121,13 @@ public class nk09链表回文结构 {
      * @return 是否是回文
      */
     // TODO: 2017/7/18 太复杂, 没有完成
-    private static boolean isPalindrome3(Node head) {
+    private static boolean isPalindrome3(SingleNode head) {
         if (head == null) {
             return false;
         }
         
-        Node index = head;
-        Node indexPost = head;
+        SingleNode index = head;
+        SingleNode indexPost = head;
         
         int num = 0;
         while (index != null) {

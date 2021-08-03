@@ -25,32 +25,32 @@ public class nk05链表分化 {
         String str = scanner.nextLine();
         int val = scanner.nextInt();
         
-        Node head = SingleNodeUtils.str2link(str);
+        SingleNode head = SingleNodeUtils.str2link(str);
         
         //打印链表
         SingleNodeUtils.printLink(head);
         
-        Node res = listDivide(head, val);
+        SingleNode res = listDivide(head, val);
         
         //打印链表
         
         SingleNodeUtils.printLink(res);
     }
     
-    public static Node listDivide(Node head, int val) {
+    public static SingleNode listDivide(SingleNode head, int val) {
         if (head == null) {
             return null;
         }
         
-        Node pre = null;
-        Node post = null;
+        SingleNode pre = null;
+        SingleNode post = null;
         
         //相应的头节点
-        Node preHead = pre;
-        Node postHead = post;
+        SingleNode preHead = pre;
+        SingleNode postHead = post;
         
         while (head != null) {
-            if (head.val <= val) {
+            if (head.value <= val) {
                 if (pre == null) {
                     pre = head;
                     preHead = pre;
@@ -82,7 +82,7 @@ public class nk05链表分化 {
         
         
         //合并三个链表, 注意区分指针和节点本身
-        Node index = null;
+        SingleNode index = null;
         if (preHead != null) {
             head = preHead;
             index = pre;
